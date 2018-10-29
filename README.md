@@ -1,15 +1,20 @@
-# CyaneaOctopus
 
-[![CI Status](https://img.shields.io/travis/Adam McElhaney/CyaneaOctopus.svg?style=flat)](https://travis-ci.org/Adam McElhaney/CyaneaOctopus)
+
+<p align="center">
+  <img src="https://i.imgur.com/raNIDWO.jpg" alt="CyaneaOctopus by Adam McElhaney"/>
+</p>
 [![Version](https://img.shields.io/cocoapods/v/CyaneaOctopus.svg?style=flat)](https://cocoapods.org/pods/CyaneaOctopus)
 [![License](https://img.shields.io/cocoapods/l/CyaneaOctopus.svg?style=flat)](https://cocoapods.org/pods/CyaneaOctopus)
 [![Platform](https://img.shields.io/cocoapods/p/CyaneaOctopus.svg?style=flat)](https://cocoapods.org/pods/CyaneaOctopus)
+<p align="center">
+   <img src="https://img.shields.io/cocoapods/dt/CyaneaOctopusFramework.svg?maxAge=86400" alt="Downloads"/>  
+    <img src="https://img.shields.io/cocoapods/at/CyaneaOctopusFramework.svg?maxAge=86400" alt="Apps"/>
+    <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+"/>
+    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift%204-4BC51D.svg?style=flat" alt="Language: Swift 4" /></a> <a href="https://cocoapods.org/pods/CyaneaOctopusFramework"><img src="https://cocoapod-badges.herokuapp.com/v/CyaneaOctopusFramework/badge.png" alt="CocoaPods compatible" /></a>
+    <img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" /> <br><br>
+</p>
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+## Swift 4
 
 ## Installation
 
@@ -20,10 +25,219 @@ it, simply add the following line to your Podfile:
 pod 'CyaneaOctopus'
 ```
 
-## Author
+## Introduction
 
-Adam McElhaney, adam@exohive.com
+**CyaneaOctopus** is a lightweight, yet powerful, color framework for iOS written in pure Swift. It is based upon Chameleon framework by [Vicc Alexander](https://github.com/viccalexander/Chameleon). The Chameleon framework appears to be abandoned, so it was rebuilt here as CyaneaOctopus (another animal that can change its colors).  
 
-## License
+With CyaneaOctopus, you can easily stop tinkering with RGB values, wasting hours figuring out the right color combinations to use in your app, and worrying about whether your text will be readable on the various background colors of your app. 
 
-CyaneaOctopus is available under the MIT license. See the LICENSE file for more info.
+### Features
+
+* 24 Flat Colors in 2 Shades
+* Generate Colors from images
+* Lighten or Darken Any Color
+* Hex Color Support
+* Global App Theming 
+* Swift 4.2
+
+<p align="center">
+  <img src="http://i.imgur.com/lA4J37o.png" alt="Features"/>
+</p>
+
+## 🌟 Product Features
+
+### 100% Flat 
+
+CyaneaOctopus features over 24 hand-picked colors that come in both light and dark shades. 
+
+<p align="center">
+  <img src="http://i.imgur.com/wkGGWkN.png" alt="Swatches"/>
+</p>
+
+### Colors From Images 
+
+CyaneaOctopus allows you to seamlessly extract non-flat or flat color schemes from images without hassle. You can also generate the average color from an image with ease. You can now mold the UI colors of a profile, or product based on an image!
+
+<p align="center">
+  <img src="http://i.imgur.com/6JjFzHo.png" alt="Colors from images"/>
+</p>
+
+
+## ⚠️ Requirements
+
+* Objective-C or Swift
+* Requires a minimum of iOS 9.0 for Swift.
+* Requires Xcode 6.3 for use in any iOS Project
+
+## 🔑 License
+CyaneaOctopus is released and distributed under the terms and conditions of the [MIT license](https://github.com/adammcelhaney/CyaneaOctopus/blob/master/LICENSE.md).
+
+## 👥 Contributions
+If you run into problems, please open up an issue. We also actively welcome pull requests. By contributing to CyaneaOctopus you agree that your contributions will be licensed under its MIT license.
+
+
+## 📗 Documentation
+All methods, properties, and types available in CyaneaOctopus are documented below.   
+
+## Installation
+
+CyaneaOctopus is available through [CocoaPods](https://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod 'CyaneaOctopus'
+```
+
+
+#### Manual Installation
+If you rather install this framework manually, just drag and drop the CyaneaOctopus folder into your project, and make sure you check the following boxes. 
+
+<p align="center">
+  <img src="http://i.imgur.com/gDXaF5F.png" alt="Manual Installation"/>
+</p>
+
+
+### Usage
+To use the features in CyaneaOctopus, include the following import:
+
+###### If you installed CyaneaOctopus using CocoaPods:
+
+###### Swift:
+``` swift
+import CyaneaOctopus
+```
+
+
+### UIColor Methods
+
+##### Normal Convention:
+
+
+###### Swift
+``` swift
+view.backgroundColor = UIColor.flatGreenDark
+```
+
+##### CyaneaOctopus Shorthand:
+
+
+###### Swift
+``` swift
+view.backgroundColor = FlatGreenDark()
+```
+
+Setting the color for a light shade is the same, except without adding the *Dark* suffix. (By default, all colors without a *Dark* suffix are light shades). For example:
+
+##### Normal Convention:
+
+###### Swift
+``` swift
+view.backgroundColor = UIColor.flatGreen
+```
+
+##### CyaneaOctopus Shorthand:
+
+###### Swift
+``` swift
+view.backgroundColor = FlatGreen()
+```
+
+#### Random Colors
+There are four ways to generate a random flat color. If you have no preference as to whether you want a light shade or a dark shade, you can do the following:
+
+##### Normal Convention:
+
+###### Swift
+``` swift
+view.backgroundColor = UIColor.randomFlat
+```
+
+##### CyaneaOctopus Shorthand:
+
+###### Swift
+``` swift
+view.backgroundColor = RandomFlatColor()
+```
+
+
+**UIShadeStyles:**  
+- `UIShadeStyleLight` (`UIShadeStyle.Light` in Swift)
+- `UIShadeStyleDark` (`UIShadeStyle.Dark` in Swift)
+
+
+#### Hex Colors
+
+One of the most requested features, *hex colors*, is now available. You can simply provide a hex string with or without a *#* sign:
+
+##### Normal Convention:
+
+###### Swift
+``` swift
+UIColor(hexString:string)
+```
+
+##### CyaneaOctopus Shorthand:
+
+###### Swift
+``` swift
+HexColor(hexString)
+```
+#### Hex Values 
+
+Retrieving the `hexValue` of a UIColor is just as easy.
+
+###### Swift
+``` swift
+FlatGreen.hexValue //Returns @"2ecc71"
+```
+
+#### Lighter and Darker Colors
+
+Sometimes all you need is a color a shade lighter or a shade darker. Well for those rare, but crucial moments, CyaneaOctopus's got you covered. You can now lighten any color the following way:
+
+##### Normal Convention:
+
+###### Swift
+``` swift
+color.lightenByPercentage(percentage: CGFloat)
+```
+
+You can also generate a darker version of a color:
+
+##### Normal Convention:
+###### Swift
+``` swift
+color.darkenByPercentage(percentage: CGFloat)
+```
+
+### Colors From Images
+
+CyaneaOctopus now supports the extraction of colors from images. You can either generate both flat and non-flat color schemes from an image, or easily extract the average color.
+
+To generate a color scheme simply do the following:
+##### Normal Convention:
+
+##### CyaneaOctopus Shorthand:
+###### Swift
+``` swift
+ColorsFromImage(image, isFlatScheme)
+```
+
+To extract the average color from an image, you can also do:
+##### Normal Convention:
+###### Swift
+``` swift
+UIColor(averageColorFromImage: UIImage)
+```
+
+## 👑 Author
+CyaneaOctopus was developed by **Adam McElhaney** [(@windmarble)](https://twitter.com/windmarble) in 2018 using Swift 4.2.  Currently, it is being maintained by  [@adammcelhaney](https://github.com/adammcelhaney). 
+
+## 📝 To Do List 
+* Add Swift Support for Random Colors
+* Allow Gradient Colors to Adapt To Frame Changes
+
+## 📄 Change Log
+
+### See [Changelog.md](https://github.com/adammcelhaney/CyaneaOctopus/blob/master/CHANGELOG.md) 
+
