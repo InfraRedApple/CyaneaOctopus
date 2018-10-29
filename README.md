@@ -223,8 +223,10 @@ UIColor(averageColorFromImage: UIImage)
 CyaneaOctopus was developed by **Adam McElhaney** [(@windmarble)](https://twitter.com/windmarble) in 2018 using Swift 4.2.  Currently, it is being maintained by  [@adammcelhaney](https://github.com/adammcelhaney). 
 
 ## 📝 To Do List 
-* Add Swift Support for Random Colors
-* Allow Gradient Colors to Adapt To Frame Changes
+* Add Gradiant Color Support
+* Add Flattening Of Colors
+* Add Colors with Shades
+* Add ComplementaryColors
 
 ## 📄 Change Log
 
