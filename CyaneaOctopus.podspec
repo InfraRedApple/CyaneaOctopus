@@ -9,11 +9,12 @@ CyaneaOctopus is a color framework for written in pure Swift. It is based upon t
 
   s.homepage         = 'https://github.com/adammcelhaney/CyaneaOctopus'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           =  'Adam McElhaney'
   s.source           = { :git => 'https://github.com/adammcelhaney/CyaneaOctopus.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '4.2'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CyaneaOctopus/Classes/**/*'
