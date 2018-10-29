@@ -24,6 +24,22 @@ it, simply add the following line to your Podfile:
 pod 'CyaneaOctopus'
 ```
 
+## Extras Installation
+
+**CyaneaOctopus.clr**
+This is a color pallet library for Interface Builder (and other mac apps that use the color library.
+To install, from Finder > Go, hold <code>Option</code> and click *Library*. Copy the *.clr* file to ***/Library/Colors***
+<p align="center">
+
+<img src="https://i.imgur.com/LWOSdHW.png" alt="Install"/>
+</p>
+
+***CyaneaOctopus.aco***
+This is a color pallet swatch for Adobe products.
+You can load this by clicking the **Load Swatches...** button in the Swatches panel.
+
+
+
 ## Introduction
 
 **CyaneaOctopus** is a lightweight, yet powerful, color framework for iOS written in pure Swift. It is based upon Chameleon framework by [Vicc Alexander](https://github.com/viccalexander/Chameleon). The Chameleon framework appears to be abandoned, so it was rebuilt here as CyaneaOctopus (another animal that can change its colors).  
