@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E5CBD1C6DB23D93A7D40AA6842DCBB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		24FC7B5BD7B75B9B8DDEE91191E34986 /* Pods-CyaneaOctopus_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DCD16BF0B300B803D4BEEDD1B6446B7 /* Pods-CyaneaOctopus_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BB7C32A218752AE00AECA43 /* CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C320218752AE00AECA43 /* CyaneaOctopus.swift */; };
+		4BB7C32B218752AE00AECA43 /* UITextField_CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C322218752AE00AECA43 /* UITextField_CyaneaOctopus.swift */; };
+		4BB7C32C218752AE00AECA43 /* UIButton_CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C323218752AE00AECA43 /* UIButton_CyaneaOctopus.swift */; };
+		4BB7C32D218752AE00AECA43 /* UIView_CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C324218752AE00AECA43 /* UIView_CyaneaOctopus.swift */; };
+		4BB7C32E218752AE00AECA43 /* UIColor_CyaneaOctopusPrivate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C325218752AE00AECA43 /* UIColor_CyaneaOctopusPrivate.swift */; };
+		4BB7C32F218752AE00AECA43 /* UITextView_CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C326218752AE00AECA43 /* UITextView_CyaneaOctopus.swift */; };
+		4BB7C330218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C327218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift */; };
+		4BB7C331218752AE00AECA43 /* UIColor_CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C328218752AE00AECA43 /* UIColor_CyaneaOctopus.swift */; };
+		4BB7C332218752AE00AECA43 /* CyaneaOctopusMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C329218752AE00AECA43 /* CyaneaOctopusMacros.swift */; };
+		684A97D5DEED2B8AFA73423A0936E3E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		844A43C591D22D3257E7AFAC0BED0021 /* CyaneaOctopus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CC39A065BF9DDC54417D26D3D9CF9F /* CyaneaOctopus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3DC4E5266C4E6F488BD5E319E70203 /* Pods-CyaneaOctopus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA676D7D53C13415703077C780489FE5 /* Pods-CyaneaOctopus_Tests-dummy.m */; };
+		FD5C1C260250B9071BB5C1E18F07A2EF /* CyaneaOctopus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21BE006DD1941F7A12A3991B579E211E /* CyaneaOctopus-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A622D541F3DE1DACB8D13AA069E75051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBDF8BCA23FFD0B54498D5208F65829;
+			remoteInfo = CyaneaOctopus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C081734C9576C9014EC3B70C3B0E2D5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1DCD16BF0B300B803D4BEEDD1B6446B7 /* Pods-CyaneaOctopus_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CyaneaOctopus_Tests-umbrella.h"; sourceTree = "<group>"; };
+		21BE006DD1941F7A12A3991B579E211E /* CyaneaOctopus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CyaneaOctopus-dummy.m"; sourceTree = "<group>"; };
+		32EF1FB25EFFB466AF234A091D752E00 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33010CE0BDE8AF549434C3488C5D7A31 /* CyaneaOctopus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CyaneaOctopus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B03BBAAFA99AB5AD0BB5972C18275A7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C1F5077F63E673638E077197DC25496 /* Pods-CyaneaOctopus_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CyaneaOctopus_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		4BB7C320218752AE00AECA43 /* CyaneaOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CyaneaOctopus.swift; path = CyaneaOctopus/Classes/CyaneaOctopus.swift; sourceTree = "<group>"; };
+		4BB7C322218752AE00AECA43 /* UITextField_CyaneaOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextField_CyaneaOctopus.swift; sourceTree = "<group>"; };
+		4BB7C323218752AE00AECA43 /* UIButton_CyaneaOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButton_CyaneaOctopus.swift; sourceTree = "<group>"; };
+		4BB7C324218752AE00AECA43 /* UIView_CyaneaOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView_CyaneaOctopus.swift; sourceTree = "<group>"; };
+		4BB7C325218752AE00AECA43 /* UIColor_CyaneaOctopusPrivate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_CyaneaOctopusPrivate.swift; sourceTree = "<group>"; };
+		4BB7C326218752AE00AECA43 /* UITextView_CyaneaOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextView_CyaneaOctopus.swift; sourceTree = "<group>"; };
+		4BB7C327218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel_CyaneaOcotpus.swift; sourceTree = "<group>"; };
+		4BB7C328218752AE00AECA43 /* UIColor_CyaneaOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_CyaneaOctopus.swift; sourceTree = "<group>"; };
+		4BB7C329218752AE00AECA43 /* CyaneaOctopusMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CyaneaOctopusMacros.swift; path = CyaneaOctopus/Classes/CyaneaOctopusMacros.swift; sourceTree = "<group>"; };
+		5366195C1F8762B9B4DB51356EB5C0E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5B365CA97EF2969642AF254FAB8C2F4F /* Pods-CyaneaOctopus_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CyaneaOctopus_Tests.modulemap"; sourceTree = "<group>"; };
+		720DD9809165F18D6EA5C1DE225C5DA4 /* Pods-CyaneaOctopus_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CyaneaOctopus_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		740E69C95DA7F6DEE740E4ED7652AA17 /* CyaneaOctopus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CyaneaOctopus.xcconfig; sourceTree = "<group>"; };
+		806B66336857B896E50543BB854AE026 /* Pods-CyaneaOctopus_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CyaneaOctopus_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		84E5B4A80C39C4D420727422F95BAEB6 /* Pods-CyaneaOctopus_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CyaneaOctopus_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94CC39A065BF9DDC54417D26D3D9CF9F /* CyaneaOctopus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CyaneaOctopus-umbrella.h"; sourceTree = "<group>"; };
+		A3FFD0CCBFC47B3F18E931F58D5C61F0 /* CyaneaOctopus.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = CyaneaOctopus.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A40558EC66C72367C3088F923E09A4D9 /* Pods-CyaneaOctopus_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CyaneaOctopus_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B811CC022A355606DABDB88CA6B236C2 /* CyaneaOctopus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CyaneaOctopus-prefix.pch"; sourceTree = "<group>"; };
+		BA676D7D53C13415703077C780489FE5 /* Pods-CyaneaOctopus_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CyaneaOctopus_Tests-dummy.m"; sourceTree = "<group>"; };
+		BEBCFC88144D43CCBD0B9942408C7010 /* Pods-CyaneaOctopus_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CyaneaOctopus_Tests-resources.sh"; sourceTree = "<group>"; };
+		ECB262789FDA277D37218A7948171365 /* Pods_CyaneaOctopus_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CyaneaOctopus_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F30FC2A6E1D5DA08224153B5D14D9F3E /* CyaneaOctopus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CyaneaOctopus.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1652139999C1EE2D9C7E7B76124CC2A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				684A97D5DEED2B8AFA73423A0936E3E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0F95E7D6E424D2FE68EBCF9DBBF62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E5CBD1C6DB23D93A7D40AA6842DCBB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0427B35B681E509A6B629864B0098B17 /* CyaneaOctopus */ = {
+			isa = PBXGroup;
+			children = (
+				4BB7C320218752AE00AECA43 /* CyaneaOctopus.swift */,
+				4BB7C329218752AE00AECA43 /* CyaneaOctopusMacros.swift */,
+				4BB7C321218752AE00AECA43 /* Extensions */,
+				0B4918F661BAE15F654CBD585E3319E8 /* Pod */,
+				2F69EAA78D6DE535029907F387439083 /* Support Files */,
+			);
+			name = CyaneaOctopus;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0B4918F661BAE15F654CBD585E3319E8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A3FFD0CCBFC47B3F18E931F58D5C61F0 /* CyaneaOctopus.podspec */,
+				5366195C1F8762B9B4DB51356EB5C0E4 /* LICENSE */,
+				1C081734C9576C9014EC3B70C3B0E2D5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		0D12AA29F17AE4F7FA86F45D1347281B /* Pods-CyaneaOctopus_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B03BBAAFA99AB5AD0BB5972C18275A7 /* Info.plist */,
+				5B365CA97EF2969642AF254FAB8C2F4F /* Pods-CyaneaOctopus_Tests.modulemap */,
+				806B66336857B896E50543BB854AE026 /* Pods-CyaneaOctopus_Tests-acknowledgements.markdown */,
+				84E5B4A80C39C4D420727422F95BAEB6 /* Pods-CyaneaOctopus_Tests-acknowledgements.plist */,
+				BA676D7D53C13415703077C780489FE5 /* Pods-CyaneaOctopus_Tests-dummy.m */,
+				3C1F5077F63E673638E077197DC25496 /* Pods-CyaneaOctopus_Tests-frameworks.sh */,
+				BEBCFC88144D43CCBD0B9942408C7010 /* Pods-CyaneaOctopus_Tests-resources.sh */,
+				1DCD16BF0B300B803D4BEEDD1B6446B7 /* Pods-CyaneaOctopus_Tests-umbrella.h */,
+				720DD9809165F18D6EA5C1DE225C5DA4 /* Pods-CyaneaOctopus_Tests.debug.xcconfig */,
+				A40558EC66C72367C3088F923E09A4D9 /* Pods-CyaneaOctopus_Tests.release.xcconfig */,
+			);
+			name = "Pods-CyaneaOctopus_Tests";
+			path = "Target Support Files/Pods-CyaneaOctopus_Tests";
+			sourceTree = "<group>";
+		};
+		2F69EAA78D6DE535029907F387439083 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F30FC2A6E1D5DA08224153B5D14D9F3E /* CyaneaOctopus.modulemap */,
+				740E69C95DA7F6DEE740E4ED7652AA17 /* CyaneaOctopus.xcconfig */,
+				21BE006DD1941F7A12A3991B579E211E /* CyaneaOctopus-dummy.m */,
+				B811CC022A355606DABDB88CA6B236C2 /* CyaneaOctopus-prefix.pch */,
+				94CC39A065BF9DDC54417D26D3D9CF9F /* CyaneaOctopus-umbrella.h */,
+				32EF1FB25EFFB466AF234A091D752E00 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CyaneaOctopus";
+			sourceTree = "<group>";
+		};
+		3BA01700BCB770831874CE369E58A7E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0427B35B681E509A6B629864B0098B17 /* CyaneaOctopus */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		46577C31FDE975A0DEA9538BC867CCBB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0D12AA29F17AE4F7FA86F45D1347281B /* Pods-CyaneaOctopus_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		4BB7C321218752AE00AECA43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BB7C322218752AE00AECA43 /* UITextField_CyaneaOctopus.swift */,
+				4BB7C323218752AE00AECA43 /* UIButton_CyaneaOctopus.swift */,
+				4BB7C324218752AE00AECA43 /* UIView_CyaneaOctopus.swift */,
+				4BB7C326218752AE00AECA43 /* UITextView_CyaneaOctopus.swift */,
+				4BB7C327218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift */,
+				4BB7C328218752AE00AECA43 /* UIColor_CyaneaOctopus.swift */,
+				4BB7C325218752AE00AECA43 /* UIColor_CyaneaOctopusPrivate.swift */,
+			);
+			name = Extensions;
+			path = CyaneaOctopus/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64CD817594381191A9A2C71BF0C99C43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33010CE0BDE8AF549434C3488C5D7A31 /* CyaneaOctopus.framework */,
+				ECB262789FDA277D37218A7948171365 /* Pods_CyaneaOctopus_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				3BA01700BCB770831874CE369E58A7E9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				64CD817594381191A9A2C71BF0C99C43 /* Products */,
+				46577C31FDE975A0DEA9538BC867CCBB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		829DB8A79C3421A999CF44EF3D3B5704 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844A43C591D22D3257E7AFAC0BED0021 /* CyaneaOctopus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCD5778561655FF4EC8D16F0460B50A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24FC7B5BD7B75B9B8DDEE91191E34986 /* Pods-CyaneaOctopus_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CFBDF8BCA23FFD0B54498D5208F65829 /* CyaneaOctopus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1215C6FF22150E05E15AD50ECDAC8DF9 /* Build configuration list for PBXNativeTarget "CyaneaOctopus" */;
+			buildPhases = (
+				829DB8A79C3421A999CF44EF3D3B5704 /* Headers */,
+				46919948A04608C9A7CA800D1E7CEE11 /* Sources */,
+				CE0F95E7D6E424D2FE68EBCF9DBBF62E /* Frameworks */,
+				430632224BCC918C9B56082882415CD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CyaneaOctopus;
+			productName = CyaneaOctopus;
+			productReference = 33010CE0BDE8AF549434C3488C5D7A31 /* CyaneaOctopus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9C04279ED78658F8C315660B5DB0F4A /* Pods-CyaneaOctopus_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5CFCDEE002667B19463AB7F63E33409 /* Build configuration list for PBXNativeTarget "Pods-CyaneaOctopus_Tests" */;
+			buildPhases = (
+				FCD5778561655FF4EC8D16F0460B50A1 /* Headers */,
+				6DD11B8033E6DCAA83875F529F17D0C5 /* Sources */,
+				1652139999C1EE2D9C7E7B76124CC2A7 /* Frameworks */,
+				EB27BF861CB911DB6D6113811ED4D750 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB66316C4B3C49C933E4BD361D04CEB9 /* PBXTargetDependency */,
+			);
+			name = "Pods-CyaneaOctopus_Tests";
+			productName = "Pods-CyaneaOctopus_Tests";
+			productReference = ECB262789FDA277D37218A7948171365 /* Pods_CyaneaOctopus_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					CFBDF8BCA23FFD0B54498D5208F65829 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 64CD817594381191A9A2C71BF0C99C43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBDF8BCA23FFD0B54498D5208F65829 /* CyaneaOctopus */,
+				D9C04279ED78658F8C315660B5DB0F4A /* Pods-CyaneaOctopus_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		430632224BCC918C9B56082882415CD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB27BF861CB911DB6D6113811ED4D750 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46919948A04608C9A7CA800D1E7CEE11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB7C32A218752AE00AECA43 /* CyaneaOctopus.swift in Sources */,
+				4BB7C330218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift in Sources */,
+				FD5C1C260250B9071BB5C1E18F07A2EF /* CyaneaOctopus-dummy.m in Sources */,
+				4BB7C32E218752AE00AECA43 /* UIColor_CyaneaOctopusPrivate.swift in Sources */,
+				4BB7C32F218752AE00AECA43 /* UITextView_CyaneaOctopus.swift in Sources */,
+				4BB7C32D218752AE00AECA43 /* UIView_CyaneaOctopus.swift in Sources */,
+				4BB7C32C218752AE00AECA43 /* UIButton_CyaneaOctopus.swift in Sources */,
+				4BB7C332218752AE00AECA43 /* CyaneaOctopusMacros.swift in Sources */,
+				4BB7C331218752AE00AECA43 /* UIColor_CyaneaOctopus.swift in Sources */,
+				4BB7C32B218752AE00AECA43 /* UITextField_CyaneaOctopus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DD11B8033E6DCAA83875F529F17D0C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3DC4E5266C4E6F488BD5E319E70203 /* Pods-CyaneaOctopus_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB66316C4B3C49C933E4BD361D04CEB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CyaneaOctopus;
+			target = CFBDF8BCA23FFD0B54498D5208F65829 /* CyaneaOctopus */;
+			targetProxy = A622D541F3DE1DACB8D13AA069E75051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10D68D765A89BB0CA321BC4CD23FFEDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A40558EC66C72367C3088F923E09A4D9 /* Pods-CyaneaOctopus_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CyaneaOctopus_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CyaneaOctopus_Tests/Pods-CyaneaOctopus_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		93D1704149C7407A87D4BCAB22F93F77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740E69C95DA7F6DEE740E4ED7652AA17 /* CyaneaOctopus.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CyaneaOctopus/CyaneaOctopus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CyaneaOctopus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CyaneaOctopus/CyaneaOctopus.modulemap";
+				PRODUCT_MODULE_NAME = CyaneaOctopus;
+				PRODUCT_NAME = CyaneaOctopus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C9C8C90C27E7C4D75662FC1A38BD0883 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 740E69C95DA7F6DEE740E4ED7652AA17 /* CyaneaOctopus.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CyaneaOctopus/CyaneaOctopus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CyaneaOctopus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CyaneaOctopus/CyaneaOctopus.modulemap";
+				PRODUCT_MODULE_NAME = CyaneaOctopus;
+				PRODUCT_NAME = CyaneaOctopus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAE2DA2A569900B44A1DB3BF889D6757 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 720DD9809165F18D6EA5C1DE225C5DA4 /* Pods-CyaneaOctopus_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CyaneaOctopus_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CyaneaOctopus_Tests/Pods-CyaneaOctopus_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1215C6FF22150E05E15AD50ECDAC8DF9 /* Build configuration list for PBXNativeTarget "CyaneaOctopus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93D1704149C7407A87D4BCAB22F93F77 /* Debug */,
+				C9C8C90C27E7C4D75662FC1A38BD0883 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5CFCDEE002667B19463AB7F63E33409 /* Build configuration list for PBXNativeTarget "Pods-CyaneaOctopus_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAE2DA2A569900B44A1DB3BF889D6757 /* Debug */,
+				10D68D765A89BB0CA321BC4CD23FFEDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

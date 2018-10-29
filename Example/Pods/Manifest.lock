@@ -1,0 +1,16 @@
+PODS:
+  - CyaneaOctopus (0.1.0)
+
+DEPENDENCIES:
+  - CyaneaOctopus (from `../`)
+
+EXTERNAL SOURCES:
+  CyaneaOctopus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CyaneaOctopus: 665ab9bbbd18799890eaafb7ca607d9f4dbafe70
+
+PODFILE CHECKSUM: e0957bb6e8e949cc4c1bc433976d0d9b51461ae5
+
+COCOAPODS: 1.5.3

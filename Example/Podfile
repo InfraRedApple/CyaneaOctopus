@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CyaneaOctopus_Tests' do
+  pod 'CyaneaOctopus', :path => '../'
+  
+  
+end

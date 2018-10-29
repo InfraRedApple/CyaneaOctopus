@@ -1,0 +1,6 @@
+framework module CyaneaOctopus {
+  umbrella header "CyaneaOctopus-umbrella.h"
+
+  export *
+  module * { export * }
+}
