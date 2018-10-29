@@ -5,8 +5,6 @@
 </p>
 
 [![Version](https://img.shields.io/cocoapods/v/CyaneaOctopus.svg?style=flat)](https://cocoapods.org/pods/CyaneaOctopus)
-[![License](https://img.shields.io/cocoapods/l/CyaneaOctopus.svg?style=flat)](https://cocoapods.org/pods/CyaneaOctopus)
-[![Platform](https://img.shields.io/cocoapods/p/CyaneaOctopus.svg?style=flat)](https://cocoapods.org/pods/CyaneaOctopus)
 
 <p align="center">
    <img src="https://img.shields.io/cocoapods/dt/CyaneaOctopusFramework.svg?maxAge=86400" alt="Downloads"/>  
