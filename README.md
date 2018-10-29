@@ -1,15 +1,14 @@
 
 
+
 <p align="center">
   <img src="https://i.imgur.com/raNIDWO.jpg" alt="CyaneaOctopus by Adam McElhaney"/>
 </p>
 
-[![Version](https://img.shields.io/cocoapods/v/CyaneaOctopus.svg?style=flat)](https://cocoapods.org/pods/CyaneaOctopus)
+
 
 <p align="center">
-   <img src="https://img.shields.io/cocoapods/dt/CyaneaOctopusFramework.svg?maxAge=86400" alt="Downloads"/>  
-    <img src="https://img.shields.io/cocoapods/at/CyaneaOctopusFramework.svg?maxAge=86400" alt="Apps"/>
-    <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+"/>
+  <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+"/>
     <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift%204-4BC51D.svg?style=flat" alt="Language: Swift 4" /></a> <a href="https://cocoapods.org/pods/CyaneaOctopusFramework"><img src="https://cocoapod-badges.herokuapp.com/v/CyaneaOctopusFramework/badge.png" alt="CocoaPods compatible" /></a>
     <img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" /> <br><br>
 </p>
@@ -40,10 +39,6 @@ With CyaneaOctopus, you can easily stop tinkering with RGB values, wasting hours
 * Global App Theming 
 * Swift 4.2
 
-<p align="center">
-  <img src="http://i.imgur.com/lA4J37o.png" alt="Features"/>
-</p>
-
 ## 🌟 Product Features
 
 ### 100% Flat 
@@ -58,14 +53,9 @@ CyaneaOctopus features over 24 hand-picked colors that come in both light and da
 
 CyaneaOctopus allows you to seamlessly extract non-flat or flat color schemes from images without hassle. You can also generate the average color from an image with ease. You can now mold the UI colors of a profile, or product based on an image!
 
-<p align="center">
-  <img src="http://i.imgur.com/6JjFzHo.png" alt="Colors from images"/>
-</p>
-
-
 ## ⚠️ Requirements
 
-* Objective-C or Swift
+* Swift
 * Requires a minimum of iOS 9.0 for Swift.
 * Requires Xcode 6.3 for use in any iOS Project
 
@@ -74,7 +64,6 @@ CyaneaOctopus is released and distributed under the terms and conditions of the 
 
 ## 👥 Contributions
 If you run into problems, please open up an issue. We also actively welcome pull requests. By contributing to CyaneaOctopus you agree that your contributions will be licensed under its MIT license.
-
 
 ## 📗 Documentation
 All methods, properties, and types available in CyaneaOctopus are documented below.   
