@@ -245,6 +245,11 @@ CyaneaOctopus was developed by **Adam McElhaney** [(@windmarble)](https://twitte
 * Add Colors with Shades
 * Add ComplementaryColors
 
+
+## 🚗 RoadMap 
+* Add "night mode" fucntionaly to swap out colors to a different theme on the fly.
+
+
 ## 📄 Change Log
 
 ### See [Changelog.md](https://github.com/adammcelhaney/CyaneaOctopus/blob/master/CHANGELOG.md) 
