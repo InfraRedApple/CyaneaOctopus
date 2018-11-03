@@ -266,6 +266,5 @@ CyaneaOctopus was developed by **Adam McElhaney** [(@windmarble)](https://twitte
 
 
 ## 📄 Change Log
-
-### See [Changelog.md](https://github.com/adammcelhaney/CyaneaOctopus/blob/master/CHANGELOG.md) 
+### See [Changelog.md](https://github.com/adammcelhaney/CyaneaOctopus/blob/master/Changelog.md) 
 
