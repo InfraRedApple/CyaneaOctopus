@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CyaneaOctopus'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Color framework for Swift (Gradient colors, hexcode support, colors from images & more).'
 
   s.description      = <<-DESC
@@ -8,22 +8,15 @@ CyaneaOctopus is a color framework for written in pure Swift. It is based upon t
                        DESC
 
   s.homepage         = 'https://github.com/adammcelhaney/CyaneaOctopus'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE.md' }
   s.author           =  'Adam McElhaney'
   s.source           = { :git => 'https://github.com/adammcelhaney/CyaneaOctopus.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = '4.2'
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'CyaneaOctopus/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'CyaneaOctopus' => ['CyaneaOctopus/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-   s.frameworks = 'UIKit', 'CoreGraphics'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'CoreGraphics'
+
 end

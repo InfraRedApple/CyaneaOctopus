@@ -383,7 +383,7 @@ public extension UIColor  {
         
         return (nil, nil, nil, nil)
     }
-
+    
     func rgbComponents() -> (red:Int, green:Int, blue:Int, alpha:Int)? {
         var fRed : CGFloat = 0
         var fGreen : CGFloat = 0
@@ -402,6 +402,8 @@ public extension UIColor  {
         }
     }
     
+    
+    //MARK: Gradient Colors
     enum GradientDirection: Int {
         case topToBottom
         case leftToRight
@@ -412,15 +414,21 @@ public extension UIColor  {
         case bottomLeftToTopRight
         case bottomRightToTopLeft
     }
-
-    class func gradientColor(view: UIView, colors: [CGColor], direction: GradientDirection) {
+    
+    class func gradientColor(view: UIView, colors: [UIColor], direction: GradientDirection) {
+        var cgColors : [CGColor] = []
+        
+        for color in colors {
+            cgColors.append(color.cgColor)
+        }
+        
         let gradientLayer = CAGradientLayer()
         gradientLayer.frame = view.bounds
-        gradientLayer.colors = colors
+        gradientLayer.colors = cgColors
         gradientDirection(gradient: gradientLayer, direction: direction)
         view.layer.addSublayer(gradientLayer)
     }
-
+    
     class func gradientDirection(gradient: CAGradientLayer, direction: GradientDirection) {
         switch direction.rawValue {
         case GradientDirection.topToBottom.rawValue:

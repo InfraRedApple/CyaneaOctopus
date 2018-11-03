@@ -55,7 +55,7 @@ class CyaneaOctopus : NSObject {
      *
      *  @note By default the secondary color will be a darker shade of the specified primary color.
      *
-     *  @since 2.0
+     *  @since 1.0
      */
     @available(iOS 9.0, *)
     class func setGlobalThemeUsingPrimaryColor(_ primaryColor: UIColor, with contentStyle: UIContentStyle) {
@@ -84,6 +84,15 @@ class CyaneaOctopus : NSObject {
         self.customizeImagePickerController(withPrimaryColor: primaryColor, with: contentStyle)
     }
     
+    /**
+     *  Set a global theme using a primary color, secondary color, and the specified content style.
+     *
+     *  @param primaryColor   The primary color to theme all controllers with.
+     *  @param secondaryColor The secondary color to theme all controllers with.
+     *  @param contentStyle   The contentStyle.
+     *
+     *  @since 1.0
+     */
     @available(iOS 9.0, *)
     class func setGlobalThemeUsingPrimaryColor(_ primaryColor: UIColor, withSecondaryColor secondaryColor: UIColor?, andContentStyle contentStyle: UIContentStyle) {
         
@@ -110,6 +119,16 @@ class CyaneaOctopus : NSObject {
         self.customizeImagePickerController(withPrimaryColor: primaryColor, with: contentStyle)
     }
     
+    /**
+     *  Set a global theme using a primary color, secondary color, font name, and the specified content style.
+     *
+     *  @param primaryColor   The primary color to theme all controllers with.
+     *  @param secondaryColor The secondary color to theme all controllers with.
+     *  @param fontName       The default font for all text-based UI elements.
+     *  @param contentStyle   The contentStyle.
+     *
+     *  @since 1.0
+     */
     @available(iOS 9.0, *)
     class func setGlobalThemeUsingPrimaryColor(_ primaryColor: UIColor, withSecondaryColor secondaryColor: UIColor?, usingFontName fontName: String, andContentStyle contentStyle: UIContentStyle) {
         
@@ -176,7 +195,6 @@ class CyaneaOctopus : NSObject {
             contentColor = UIColor.white
         case .dark:
             contentColor = FlatBlackDark
-            
         }
         
         if let aColor = primaryColor {
@@ -185,10 +203,7 @@ class CyaneaOctopus : NSObject {
         
         if let aColor = contentColor {
             UIBarButtonItem.appearance(whenContainedInInstancesOf: [UISearchBar.self, UINavigationBar.self, UIToolbar.self]).tintColor = aColor
-            
-            
         }
-        
         
         if UIFont(name: fontName ?? "", size: CGFloat(fontSize)) != nil {
             if let aColor = contentColor, let aSize = UIFont(name: fontName ?? "", size: CGFloat(fontSize)) {
@@ -220,7 +235,6 @@ class CyaneaOctopus : NSObject {
             UIButton.appearance(whenContainedInInstancesOf: [UISearchBar.self, UINavigationBar.self, UIToolbar.self]).tintColor = aColor
         }
         UIButton.appearance(whenContainedInInstancesOf: [UISearchBar.self, UINavigationBar.self, UIToolbar.self]).backgroundColor = ClearColor
-        
         
         if let aColor = primaryColor {
             UIButton.appearance(whenContainedInInstancesOf: [UIStepper.self]).tintColor = aColor
@@ -337,7 +351,7 @@ class CyaneaOctopus : NSObject {
             UINavigationBar.appearance().titleTextAttributes = [NSAttributedString.Key.foregroundColor: aColor]
         }
         UINavigationBar.appearance().shadowImage = UIImage()
-        //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+        //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault]
     }
     
     @available(iOS 9.0, *)
@@ -361,7 +375,7 @@ class CyaneaOctopus : NSObject {
             UINavigationBar.appearance().tintColor = aColor
         }
         UINavigationBar.appearance().shadowImage = UIImage()
-        //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault];
+        //    [[UINavigationBar appearance] setBackgroundImage:[UIImage new] forBarMetrics:UIBarMetricsDefault]
         
         if UIFont(name: fontName ?? "", size: fontSize) != nil {
             if let aColor = textColor, let aSize = UIFont(name: fontName ?? "", size: fontSize) {
@@ -617,7 +631,7 @@ class CyaneaOctopus : NSObject {
         case .contrast:
             contentColor = UIColor.contrastColor(primaryColor!, false)
         case .light:
-            contentColor = UIColor.white
+            contentColor = .white
         case .dark:
             contentColor = FlatBlackDark
         }

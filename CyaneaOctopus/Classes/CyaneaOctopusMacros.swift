@@ -1,6 +1,6 @@
 //
 //  CyaneaOctopusMacros.swift
-//  TestColor
+//  CyaneaOctopus
 //
 //  Created by Adam McElhaney on 10/27/18.
 //  Copyright © 2018 Adam McElhaney. All rights reserved.

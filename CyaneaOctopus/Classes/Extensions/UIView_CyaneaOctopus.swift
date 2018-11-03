@@ -1,6 +1,6 @@
 //
 //  UIView_CyaneaOctopus.swift
-//  TestColor
+//  CyaneaOctopus
 //
 //  Created by Adam McElhaney on 10/27/18.
 //  Copyright © 2018 Adam McElhaney. All rights reserved.
@@ -26,7 +26,7 @@ extension UIView {
     }
     
     func findTopMostView(for point: CGPoint) -> UIView? {
-       
+        
         for subview in subviews {
             if !subview.isHidden && subview.frame.contains(point) && subview.alpha > 0.01 {
                 return subview.findTopMostView(for:  convert(point, to: subview))
@@ -35,5 +35,5 @@ extension UIView {
         
         return self
     }
-
+    
 }

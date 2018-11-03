@@ -1,16 +1,11 @@
-
-
-
 <p align="center">
-  <img src="https://i.imgur.com/raNIDWO.jpg" alt="CyaneaOctopus by Adam McElhaney"/>
+<img src="https://i.imgur.com/raNIDWO.jpg" alt="CyaneaOctopus by Adam McElhaney"/>
 </p>
 
-
-
 <p align="center">
-  <img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+"/>
-    <a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift%204-4BC51D.svg?style=flat" alt="Language: Swift 4" /></a> 
-    <img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" /> <br><br>
+<img src="https://img.shields.io/badge/platform-iOS%208%2B-blue.svg?style=flat" alt="Platform: iOS 8+"/>
+<a href="https://developer.apple.com/swift"><img src="https://img.shields.io/badge/language-swift%204-4BC51D.svg?style=flat" alt="Language: Swift 4" /></a> 
+<img src="http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat" alt="License: MIT" /> <br><br>
 </p>
 
 ## Swift 4
@@ -49,7 +44,8 @@ With CyaneaOctopus, you can easily stop tinkering with RGB values, wasting hours
 ### Features
 
 * 24 Flat Colors in 2 Shades
-* Generate Colors from images
+* Gradient Colors
+* Generate Colors from Images
 * Lighten or Darken Any Color
 * Hex Color Support
 * Global App Theming 
@@ -63,7 +59,7 @@ CyaneaOctopus features over 24 hand-picked colors that come in both light and da
 
 <p align="center">
 
-  <img src="https://i.imgur.com/3Ra96Bo.jpg" alt="Swatches"/>
+<img src="https://i.imgur.com/3Ra96Bo.jpg" alt="Swatches"/>
 </p>
 
 ### Colors From Images 
@@ -99,7 +95,7 @@ pod 'CyaneaOctopus'
 If you rather install this framework manually, just drag and drop the CyaneaOctopus folder into your project, and make sure you check the following boxes. 
 
 <p align="center">
-  <img src="http://i.imgur.com/gDXaF5F.png" alt="Manual Installation"/>
+<img src="http://i.imgur.com/gDXaF5F.png" alt="Manual Installation"/>
 </p>
 
 
@@ -112,7 +108,6 @@ To use the features in CyaneaOctopus, include the following import:
 ``` swift
 import CyaneaOctopus
 ```
-
 
 ### UIColor Methods
 
@@ -147,6 +142,25 @@ view.backgroundColor = UIColor.flatGreen
 ``` swift
 view.backgroundColor = FlatGreen()
 ```
+
+#### Gradient Colors
+Gradient colors can be created by passing a view to color, an array of UIColors, and a direction for the gradient.
+
+###### Swift
+```  swift
+let colors : [UIColor] = [.flatBlueColor(),.flatRedColor(),.flatGreenColor()]
+UIColor.gradientColor(view: view, colors: colors, direction: .leftToRight)
+```
+
+###### 8 Possible Gradient Directions
+- topToBottom
+- leftToRight
+- bottomToTop
+- rightToLeft
+- topLeftToBottomRight
+- topRightToBottomLeft
+- bottomLeftToTopRight
+- bottomRightToTopLeft
 
 #### Random Colors
 There are four ways to generate a random flat color. If you have no preference as to whether you want a light shade or a dark shade, you can do the following:
@@ -240,14 +254,13 @@ UIColor(averageColorFromImage: UIImage)
 CyaneaOctopus was developed by **Adam McElhaney** [(@windmarble)](https://twitter.com/windmarble) in 2018 using Swift 4.2.  Currently, it is being maintained by  [@adammcelhaney](https://github.com/adammcelhaney). 
 
 ## 📝 To Do List 
-* Add Gradiant Color Support
 * Add Flattening Of Colors
 * Add Colors with Shades
-* Add ComplementaryColors
+* Add Complementary Colors
 
 
 ## 🚗 RoadMap 
-* Add "night mode" fucntionaly to swap out colors to a different theme on the fly.
+* Add "night mode" functionally to swap out colors to a different theme on the fly.
 
 
 ## 📄 Change Log

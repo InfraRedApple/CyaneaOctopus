@@ -1,6 +1,6 @@
 //
 //  UITextField_CyaneaOctopus.swift
-//  TestColor
+//  CyaneaOctopus
 //
 //  Created by Adam McElhaney on 10/29/18.
 //  Copyright © 2018 Adam McElhaney. All rights reserved.
@@ -11,19 +11,19 @@ import UIKit
 extension UITextField {
     public var substituteFontName : String {
         get {
-            return self.font?.fontName ?? "";
+            return self.font?.fontName ?? ""
         }
         set {
-            let fontNameToTest = self.font?.fontName.lowercased() ?? "";
-            var fontName = newValue;
+            let fontNameToTest = self.font?.fontName.lowercased() ?? ""
+            var fontName = newValue
             if fontNameToTest.range(of: "bold") != nil {
-                fontName += "-Bold";
+                fontName += "-Bold"
             } else if fontNameToTest.range(of: "medium") != nil {
-                fontName += "-Medium";
+                fontName += "-Medium"
             } else if fontNameToTest.range(of: "light") != nil {
-                fontName += "-Light";
+                fontName += "-Light"
             } else if fontNameToTest.range(of: "ultralight") != nil {
-                fontName += "-UltraLight";
+                fontName += "-UltraLight"
             }
             self.font = UIFont(name: fontName, size: self.font?.pointSize ?? 17)
         }
