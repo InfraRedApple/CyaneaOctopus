@@ -232,6 +232,24 @@ You can also generate a darker version of a color:
 color.darkenByPercentage(percentage: CGFloat)
 ```
 
+### Changing the Color of Images
+Cyanea Octopus supports color overlay and tiniting of UIImages.
+
+###### Tint
+``` swift
+let dice = UIImage(named: "test")?.tint(.red)
+```
+All grey-scale colors are tinted with the desired color.
+
+###### Tint
+``` swift
+let dice = UIImage(named: "test")?.overlayColor(.yellow)
+```
+The alpha channel is fully colored.
+
+<img src="https://i.imgur.com/0Z2osSb.png" width="50%" height="50%" alt="Color tint and overlay"/>
+
+
 ### Colors From Images
 
 CyaneaOctopus now supports the extraction of colors from images. You can either generate both flat and non-flat color schemes from an image, or easily extract the average color.
