@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'CyaneaOctopus'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'Color framework for Swift (Gradient colors, hexcode support, colors from images & more).'
 
   s.description      = <<-DESC
