@@ -7,13 +7,13 @@
 
 import UIKit
 
-extension UIImage {
+public extension UIImage {
     
     /// This will tint an image with the desired color. Non-greyscale images. Whites and Black preserved.
     ///
     /// - Parameter tintColor: The color to tint the image with
     /// - Returns: A tinted UIImage
-    func tint(_ tintColor: UIColor) -> UIImage {
+    public func tint(_ tintColor: UIColor) -> UIImage {
         return processImage { context, rect in
             // draw black background - workaround to preserve color of partially transparent pixels
             context.setBlendMode(.normal)
@@ -40,7 +40,7 @@ extension UIImage {
     ///
     /// - Parameter fillColor: The desired color
     /// - Returns: Alpha colored image
-    func overlayColor(_ fillColor: UIColor) -> UIImage {
+    public func overlayColor(_ fillColor: UIColor) -> UIImage {
         return processImage { context, rect in
             // draw tint color
             context.setBlendMode(.normal)

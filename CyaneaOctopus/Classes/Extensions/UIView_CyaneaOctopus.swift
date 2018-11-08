@@ -9,7 +9,7 @@
 import UIKit
 
 extension UIView {
-    func isTopViewInWindow() -> Bool {
+    public func isTopViewInWindow() -> Bool {
         
         if window == nil {
             return false
@@ -25,7 +25,7 @@ extension UIView {
         return isTopMost
     }
     
-    func findTopMostView(for point: CGPoint) -> UIView? {
+    public func findTopMostView(for point: CGPoint) -> UIView? {
         
         for subview in subviews {
             if !subview.isHidden && subview.frame.contains(point) && subview.alpha > 0.01 {
