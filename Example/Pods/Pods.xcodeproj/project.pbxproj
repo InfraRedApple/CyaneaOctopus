@@ -18,6 +18,7 @@
 		4BB7C330218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C327218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift */; };
 		4BB7C331218752AE00AECA43 /* UIColor_CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C328218752AE00AECA43 /* UIColor_CyaneaOctopus.swift */; };
 		4BB7C332218752AE00AECA43 /* CyaneaOctopusMacros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BB7C329218752AE00AECA43 /* CyaneaOctopusMacros.swift */; };
+		4BBDAB162194BDFC009D64AC /* UIImage_CyaneaOctopus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBDAB152194BDFC009D64AC /* UIImage_CyaneaOctopus.swift */; };
 		684A97D5DEED2B8AFA73423A0936E3E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		844A43C591D22D3257E7AFAC0BED0021 /* CyaneaOctopus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94CC39A065BF9DDC54417D26D3D9CF9F /* CyaneaOctopus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA3DC4E5266C4E6F488BD5E319E70203 /* Pods-CyaneaOctopus_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA676D7D53C13415703077C780489FE5 /* Pods-CyaneaOctopus_Tests-dummy.m */; };
@@ -51,6 +52,7 @@
 		4BB7C327218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabel_CyaneaOcotpus.swift; sourceTree = "<group>"; };
 		4BB7C328218752AE00AECA43 /* UIColor_CyaneaOctopus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor_CyaneaOctopus.swift; sourceTree = "<group>"; };
 		4BB7C329218752AE00AECA43 /* CyaneaOctopusMacros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CyaneaOctopusMacros.swift; path = CyaneaOctopus/Classes/CyaneaOctopusMacros.swift; sourceTree = "<group>"; };
+		4BBDAB152194BDFC009D64AC /* UIImage_CyaneaOctopus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage_CyaneaOctopus.swift; sourceTree = "<group>"; };
 		5366195C1F8762B9B4DB51356EB5C0E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B365CA97EF2969642AF254FAB8C2F4F /* Pods-CyaneaOctopus_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CyaneaOctopus_Tests.modulemap"; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				4BB7C327218752AE00AECA43 /* UILabel_CyaneaOcotpus.swift */,
 				4BB7C328218752AE00AECA43 /* UIColor_CyaneaOctopus.swift */,
 				4BB7C325218752AE00AECA43 /* UIColor_CyaneaOctopusPrivate.swift */,
+				4BBDAB152194BDFC009D64AC /* UIImage_CyaneaOctopus.swift */,
 			);
 			name = Extensions;
 			path = CyaneaOctopus/Classes/Extensions;
@@ -334,6 +337,7 @@
 				4BB7C332218752AE00AECA43 /* CyaneaOctopusMacros.swift in Sources */,
 				4BB7C331218752AE00AECA43 /* UIColor_CyaneaOctopus.swift in Sources */,
 				4BB7C32B218752AE00AECA43 /* UITextField_CyaneaOctopus.swift in Sources */,
+				4BBDAB162194BDFC009D64AC /* UIImage_CyaneaOctopus.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
