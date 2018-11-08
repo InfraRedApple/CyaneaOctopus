@@ -247,7 +247,7 @@ let dice = UIImage(named: "test")?.overlayColor(.yellow)
 ```
 The alpha channel is fully colored.
 
-<img src="https://i.imgur.com/0Z2osSb.png" width="50%" height="50%" alt="Color tint and overlay"/>
+<img src="https://i.imgur.com/0Z2osSb.png" width="75%" height="75%" alt="Color tint and overlay"/>
 
 
 ### Colors From Images
