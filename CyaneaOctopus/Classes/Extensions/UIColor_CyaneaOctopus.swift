@@ -429,6 +429,20 @@ public extension UIColor  {
         view.layer.addSublayer(gradientLayer)
     }
     
+    class func gradientColor(view: UIView, colors: [UIColor], direction: GradientDirection, at index: Int) {
+        var cgColors : [CGColor] = []
+        
+        for color in colors {
+            cgColors.append(color.cgColor)
+        }
+        
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = view.bounds
+        gradientLayer.colors = cgColors
+        gradientDirection(gradient: gradientLayer, direction: direction)
+        view.layer.insertSublayer(gradientLayer, at: UInt32(index))
+    }
+    
     class func gradientDirection(gradient: CAGradientLayer, direction: GradientDirection) {
         switch direction.rawValue {
         case GradientDirection.topToBottom.rawValue:
