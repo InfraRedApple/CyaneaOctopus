@@ -13,7 +13,7 @@ public extension UIImage {
     ///
     /// - Parameter tintColor: The color to tint the image with
     /// - Returns: A tinted UIImage
-    public func tint(_ tintColor: UIColor) -> UIImage {
+    func tint(_ tintColor: UIColor) -> UIImage {
         return processImage { context, rect in
             // draw black background - workaround to preserve color of partially transparent pixels
             context.setBlendMode(.normal)
@@ -40,7 +40,7 @@ public extension UIImage {
     ///
     /// - Parameter fillColor: The desired color
     /// - Returns: Alpha colored image
-    public func overlayColor(_ fillColor: UIColor) -> UIImage {
+    func overlayColor(_ fillColor: UIColor) -> UIImage {
         return processImage { context, rect in
             // draw tint color
             context.setBlendMode(.normal)
